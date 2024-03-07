@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Order PDFs</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <h1>PDF Processor</h1>
+    <div id="inputArea">
+        <label for="keywordsInput">Keywords (separated by commas):</label>
+        <input type="text" id="keywordsInput" placeholder="Enter keywords">
+    </div>
+    <div id="directoryPickerArea">
+        <label for="directoryPicker">Select the PDF directory:</label>
+        <input type="file" id="directoryPicker" directory webkitdirectory>
+    </div>
+    <button id="executeButton">Execute Script</button>
+    <div id="loadingIndicator" style="display: none;">Loading...</div>
+
+    <script src="./render.js"></script>
+</body>
+</html>
