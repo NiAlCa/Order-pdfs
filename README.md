@@ -22,7 +22,7 @@ To run this project on your local machine, you'll need Node.js, npm, and Graphic
 5. Once the installation is complete, run `npm start` to launch the application.
 
 ## Usage
-
+u can download from releases
 To use the application, follow these steps:
 
 1. Open the application. You will see a window with fields to enter keywords and select the PDF file directory.
